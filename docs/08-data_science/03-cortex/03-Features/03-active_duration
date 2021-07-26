@@ -30,12 +30,12 @@ Output:
   'duration': 5616000000,
   'resolution': 86400000,
   'data': [
-           {'timestamp': 1607072400000, 'entropy': 0.16071499652789484},
-           {'timestamp': 1607331600000, 'entropy': None},
+           {'timestamp': 1607072400000, 'active_duration': 57600000},
+           {'timestamp': 1607331600000, 'active_duration': None},
                  .
                  .
                  .
-           {'timestamp': 1609232400000, 'entropy': 0.8753883626144159}
+           {'timestamp': 1609232400000, 'active_duration': 64800000}
           ]
 }
 ```
