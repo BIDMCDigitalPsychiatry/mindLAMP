@@ -1,6 +1,7 @@
 ### Entropy (Secondary Feature)
 
 computed from primary feature: cortex.primary.significant_locations
+computed from raw feature: cortex.raw.gps
 
 #### Description
 
@@ -17,7 +18,7 @@ Entropy is a measure of how much a participant moves around to different locatio
 #### Data
 
 - `timestamp: number`: (units: ms) the start time of each bin of size `kwargs['resolution']`.
-- `entropy: number`: (units: None) the entropy.
+- `entropy: number`: (units: None) the entropy. If there is no gps data, energy will be 'None'.
 
 #### Example
 
