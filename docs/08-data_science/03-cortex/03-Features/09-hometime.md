@@ -16,7 +16,7 @@ The time spent at the most visited location (assumed to be home). For this compu
 #### Data
 
 - `timestamp: number`: (units: ms) the start time of each bin of size `kwargs['resolution']`.
-- `hometime: number`: (units: ms) the time spent in the most visited location.
+- `hometime: number`: (units: ms) the time spent in the most visited location. If there is no gps data, hometime will be 'None'.
 
 #### Example
 
