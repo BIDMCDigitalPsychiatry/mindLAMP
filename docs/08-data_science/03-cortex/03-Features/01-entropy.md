@@ -18,7 +18,7 @@ Entropy is a measure of how much a participant moves around to different locatio
 #### Data
 
 - `timestamp: number`: (units: ms) the start time of each bin of size `kwargs['resolution']`.
-- `entropy: number`: (units: None) the entropy. If there is no gps data, energy will be 'None'.
+- `entropy: number`: (units: None) the entropy. If there is no gps data, entropy will be 'None'.
 
 #### Example
 
