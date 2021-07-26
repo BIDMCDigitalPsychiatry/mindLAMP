@@ -11,6 +11,7 @@ Call duration sums the time spent on calls.
 - `start: number`: (units: ms) the start time.
 - `end: number`: (units: ms) the end time.
 - `resolution: number`: (units: ms, default: 1 day = 86400000 ms) the resolution over which to compute features.
+- `incoming: boolean`: (units: None, default: True) whether to compute for incoming or outgoing calls.
 
 #### Data
 
