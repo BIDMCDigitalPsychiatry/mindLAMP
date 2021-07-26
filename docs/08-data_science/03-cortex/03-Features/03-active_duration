@@ -16,7 +16,7 @@ Active duration is a measure of how much time a participant spends awake, it is 
 #### Data
 
 - `timestamp: number`: (units: ms) the start time of each bin of size `kwargs['resolution']`.
-- `entropy: number`: (units: ms) the active duration.
+- `entropy: number`: (units: ms) the active duration. If there is no accelerometer data, active duration will be 'None'.
 
 #### Example
 
