@@ -1,4 +1,4 @@
-# Trips (Primary Feature)
+# Trips
 
 computed from raw feature: cortex.raw.gps
 
