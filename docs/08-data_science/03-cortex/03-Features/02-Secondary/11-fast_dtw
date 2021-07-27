@@ -1,0 +1,43 @@
+# FastDTW (Secondary Feature)
+
+computed from raw feature: cortex.raw.gps
+
+#### Description
+
+A similarity measuring algorithm for two GPS trajectories; a variant of the Dynamic Time Warping algorithm. 
+
+.. [1] Stan Salvador, and Philip Chan. "FastDTW: Toward accurate dynamic time warping in linear time and space." Intelligent Data Analysis 11.5 (2007): 561-580.
+
+#### Optional or required kwargs
+
+- `start: number`: (units: ms) the start time.
+- `end: number`: (units: ms) the end time.
+- `resolution: number`: (units: ms, default: 1 day = 86400000 ms) the resolution over which to compute features.
+- `LOOKBACK`: (units: ms, default: 1 day = 86400000 ms) the resolution over which to compute features.
+
+#### Data
+
+- `timestamp: number`: (units: ms) the start time of each bin of size `kwargs['resolution']`.
+- `fastDTW_score: number`: (units: None) FastDTW score between two GPS trajectories. If there is no GPS data, fastDTW_score will be 'None'.
+
+#### Example
+
+```markdown
+cortex.secondary.fast_dtw.fast_dtw(LOOKBACK=86400000, id="U1234567890", start=0, end=cortex.now(), resolution=86400000)
+```
+Output:
+```markdown
+{
+  'timestamp': 1607072400000,
+  'duration': 5616000000,
+  'resolution': 86400000,
+  'data': [
+           {'timestamp': 1607245200000, 'fastDTW_score': .6130470131747797},
+           {'timestamp': 1607331600000, 'fastDTW_score': None},
+                 .
+                 .
+                 .
+           {'timestamp': 1608454800000, 'fastDTW_score': 0.4502036706434}
+          ]
+}
+```
