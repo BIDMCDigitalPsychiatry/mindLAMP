@@ -1,4 +1,4 @@
-### Entropy (Secondary Feature)
+# Entropy (Secondary Feature)
 
 computed from primary feature: cortex.primary.significant_locations
 computed from raw feature: cortex.raw.gps
