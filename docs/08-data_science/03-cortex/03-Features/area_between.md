@@ -1,4 +1,4 @@
-### area_between (Secondary Feature)
+# area_between (Secondary Feature)
 
 computed from raw feature: cortex.raw.gps
 
