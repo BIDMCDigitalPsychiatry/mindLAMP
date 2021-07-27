@@ -1,4 +1,4 @@
-# Sleep Periods (Primary Feature)
+# Sleep Periods
 
 computed from raw feature: cortex.raw.accelerometer
 
