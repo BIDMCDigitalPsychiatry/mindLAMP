@@ -1,4 +1,4 @@
-# Screen Active (Primary Feature)
+# Screen Active
 
 computed from raw feature: cortex.raw.screen_state
 
