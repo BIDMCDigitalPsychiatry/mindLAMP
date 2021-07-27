@@ -1,4 +1,4 @@
-# Significant Locations (Primary Feature)
+# Significant Locations
 
 computed from raw feature: cortex.raw.gps
 
