@@ -1,4 +1,4 @@
-# Survey Scores (Primary Feature)
+# Survey Scores
 
 computed from raw feature: cortex.raw.survey
 
