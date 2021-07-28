@@ -5,7 +5,7 @@ computed from raw feature: cortex.raw.gps
 #### Description
 
 Discrete Frechet Distance: similarity measuring algorithm for two GPS trajectories.
-Thortest distance in-between two curves, where you are allowed to very the speed at which you travel along each curve independently (walking dog problem)
+Shortest distance in-between two curves, where you are allowed to very the speed at which you travel along each curve independently (walking dog problem)
 
 #### Optional or required kwargs
 
