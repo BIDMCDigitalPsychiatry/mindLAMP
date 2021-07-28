@@ -16,7 +16,7 @@ An algorithm for calculating the similarity between two GPS trajectories; Assume
 #### Data
 
 - `timestamp: number`: (units: ms) the start time of each bin of size `kwargs['resolution']`.
-- `curv: number`: (units: None) curve length similarity between gps trajectories. If there is no GPS data, curve_length_similarity will be 'None'.
+- `curve_length_similarity: number`: (units: None) curve length similarity between gps trajectories. If there is no GPS data, curve_length_similarity will be 'None'.
 
 #### Example
 
